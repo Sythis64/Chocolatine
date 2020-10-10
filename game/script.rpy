@@ -28,7 +28,9 @@ label start:
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
+    e "Test Nathan "
+    
     # This ends the game.
 
     return
-    "test 1,2,1,2"
+    e "test 1,2,1,2"
