@@ -7,20 +7,28 @@ image black_screen = "black_screen.jpg"
 image objection = "objection.jpg"
 image abandonne5 = "abandonne5.jpg"
 image arene_pokemon = "arene_pokemon.jpg"
+image femme = "eileen happy.png"
+image robot_geant = "robot_geant.jpg"
+image zz = "zz.jpg"
+image gilbert = "gilbert.jpg"
 
 label scene2:
     scene abandonne4
+    show zz
     z "On va se reposer ici."
     "ZZ entre dans un batiment attaqué par la corrosion."
     scene abandonne4a with Dissolve(1.5)
     pause(0.5)
     scene abandonne1 with Dissolve(1.5)
     pause(0.5)
+    show gilbert at right
     g "C'est dangereux, le batiment peur s'effondrer à n'importe quel moment !"
+    show zz at left
     z "C'est encore plus risqué de rester dehors avec ces robots."
     "ZZ appercoit quelqu'un au loin."
     if oeil_bionique:
         "Il y a un enfant caché qui vous regarde."
+        hide gilbert
         z "Viens, je ne vais pas te faire de mal."
         "L'enfant s'approche, timide."
         z "Il y a d'autres personnes ici ?"
@@ -44,19 +52,27 @@ label scene2:
                 z "Il y a des gens qui vivent ici ?"
                 "ZZ explore le batiment."
 
+    show gilbert at right
     g "Va chercher par la droite, je vais voir sur la gauche."
+    hide gilbert
+    hide zz
 
     scene black_screen with Dissolve(1.0)
 
     "{i}Quelques minutes plus tard.{i}"
 
     scene abandonne3 with Dissolve(1.0)
+    show gilbert at right
+    show femme at left
 
     z "Gilbert ! Je n'ai rien trouv...{p=1} Qu'est-ce qui se passe !"
 
     "Gilbert tend son arme vers un groupe d'humains appeurés."
 
     z "Pourquoi tu les attaque ?"
+
+    hide gilbert
+    show zz right
 
     g "Je... Je... Pour rien, c'est bon."
 
@@ -259,9 +275,7 @@ label hacker_boss2:
             "Revenez en arrière avec la touche {i}retour{/i} parce que le dev avait la flemme de faire une boucle."
             pause(60.0)
             "c bien, vous êtes encore là, vous avez vraiment rien a faire..."
-            jump fin_de_merde
 
-label fin_de_merde
 
     "Bravo, vous avez gagné..."
     "Non je rigole, recommencez depuis le debut"
