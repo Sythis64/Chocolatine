@@ -1,98 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-<<<<<<< HEAD
-While processing text tag {size+=10} in u'{size+=10}Notre esp\xe8ce est parti de loin.{/size}'.:
-  File "game/script.rpy", line 23, in script
-    show text "{size+=10}Notre espèce est parti de loin.{/size}" with Pause(3.5)
-Exception: Unknown text tag u'size+=10'
-=======
 While running game code:
-  File "game/scene3.rpy", line 11, in script
-    ZZ "L'ISIMA est en feu !"
-Exception: Sayer 'ZZ' is not defined.
->>>>>>> 3531aaa41e07d7ba5fc3a70d91c8fceef60fff73
+  File "game/script.rpy", line 74, in script
+    jump finrobot
+ScriptError: could not find label 'finrobot'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-<<<<<<< HEAD
-  File "game/script.rpy", line 23, in script
-    show text "{size+=10}Notre espèce est parti de loin.{/size}" with Pause(3.5)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/ast.py", line 1389, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/exports.py", line 1601, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/core.py", line 2251, in do_with
-    clear=clear)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/core.py", line 2702, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/core.py", line 3194, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/core.py", line 2094, in draw_screen
-    renpy.config.screen_height,
-  File "renpy/display/render.pyx", line 490, in renpy.display.render.render_screen (gen/renpy.display.render.c:6805)
-    rv = render(root, width, height, st, st)
-  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen/renpy.display.render.c:3520)
-    rv = d.render(widtho, heighto, st, at)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen/renpy.display.render.c:4075)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen/renpy.display.render.c:3520)
-    rv = d.render(widtho, heighto, st, at)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/transition.py", line 87, in render
-    return null_render(self, width, height, st, at)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/transition.py", line 61, in null_render
-    st, at)
-  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen/renpy.display.render.c:4075)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen/renpy.display.render.c:3520)
-    rv = d.render(widtho, heighto, st, at)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen/renpy.display.render.c:4075)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen/renpy.display.render.c:3520)
-    rv = d.render(widtho, heighto, st, at)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen/renpy.display.render.c:4075)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen/renpy.display.render.c:3520)
-    rv = d.render(widtho, heighto, st, at)
-  File "accelerator.pyx", line 110, in renpy.display.accelerator.transform_render
-  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen/renpy.display.render.c:3520)
-    rv = d.render(widtho, heighto, st, at)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/image.py", line 500, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/image.py", line 306, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen/renpy.display.render.c:4075)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen/renpy.display.render.c:3520)
-    rv = d.render(widtho, heighto, st, at)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/text/text.py", line 1996, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/text/text.py", line 597, in __init__
-    self.paragraphs = self.segment(text.tokens, style, renders, text)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/text/text.py", line 1179, in segment
-    raise Exception("Unknown text tag %r" % text)
-Exception: Unknown text tag u'size+=10'
-=======
-  File "game/scene3.rpy", line 11, in script
-    ZZ "L'ISIMA est en feu !"
-  File "C:\Users\33651\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 678, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\33651\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 576, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'ZZ' is not defined.
->>>>>>> 3531aaa41e07d7ba5fc3a70d91c8fceef60fff73
+  File "game/script.rpy", line 74, in script
+    jump finrobot
+  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/ast.py", line 1697, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/script.py", line 898, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'finrobot'.
 
-Windows-8-6.2.9200
+Linux-5.4.0-48-generic-x86_64-with-debian-buster-sid
 Ren'Py 7.3.5.606
 Chocolatine 1.0
-<<<<<<< HEAD
-Sat Oct 10 16:28:58 2020
-=======
-Sat Oct 10 16:03:11 2020
->>>>>>> 3531aaa41e07d7ba5fc3a70d91c8fceef60fff73
+Sat Oct 10 20:47:12 2020
