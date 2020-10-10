@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scene1.rpy", line 9: indentation mismatch.
+File "game/script.rpy", line 34: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        "Alors que la société 
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat Oct 10 14:47:38 2020
+Sat Oct 10 15:21:55 2020
