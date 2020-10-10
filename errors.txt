@@ -2,18 +2,9 @@
 errors listed below, and try again.
 
 
-<<<<<<< HEAD
-File "game/scene2.rpy", line 16: choice menuitem expects a non-empty block.
-    "Le suivre":
-                ^
+File "game/scene3.rpy", line 20: expected statement.
+    //s
+       ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat Oct 10 15:35:14 2020
-=======
-File "game/script.rpy", line 34: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        "Alors que la société 
-
-Ren'Py Version: Ren'Py 7.3.5.606
-Sat Oct 10 15:21:55 2020
->>>>>>> 0bbeb95c2eb27e9ebe05a665e80ad850bf7940a3
+Sat Oct 10 16:02:56 2020
