@@ -57,7 +57,6 @@ label start:
 
     jump scene1
 
-    return
 
 label fin:
 
