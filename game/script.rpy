@@ -31,3 +31,4 @@ label start:
     # This ends the game.
 
     return
+    "test 1,2,1,2"
