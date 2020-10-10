@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scene1.rpy", line 9: indentation mismatch.
+File "game/scene2.rpy", line 16: choice menuitem expects a non-empty block.
+    "Le suivre":
+                ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat Oct 10 14:47:38 2020
+Sat Oct 10 15:35:14 2020
