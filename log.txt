@@ -1,14 +1,13 @@
-<<<<<<< HEAD
-Sat Oct 10 15:39:31 2020
+Sat Oct 10 16:46:26 2020
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
  
 
 Bootstrap to the start of init.init took 0.07s
 Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.03s
-Loading script took 0.18s
+Loader init took 0.05s
+Loading error handling took 0.02s
+Loading script took 0.13s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
@@ -16,61 +15,24 @@ Running init code took 0.12s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\evahn\\AppData\\Roaming/RenPy/backups\\Chocolatine':
-Dump and make backups. took 0.07s
+Dump and make backups. took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.01s
 DPI scale factor: 1.250000
 Creating interface object took 0.08s
-=======
-Sat Oct 10 16:06:07 2020
-Linux-5.4.0-48-generic-x86_64-with-debian-buster-sid
-Ren'Py 7.3.5.606
- 
-
-Bootstrap to the start of init.init took 0.19s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.05s
-Loading script took 0.33s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.14s
-Loading analysis data took 0.11s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to '/home/nicolas/.renpy/backups/Chocolatine':
-Dump and make backups. took 0.15s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.45s
->>>>>>> 0bbeb95c2eb27e9ebe05a665e80ad850bf7940a3
 Cleaning stores took 0.00s
 Init translation took 0.02s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-<<<<<<< HEAD
-Analyze screens took 0.01s
-Save screen analysis took 0.07s
-Prepare screens took 0.06s
-=======
-Analyze screens took 0.06s
-Save screen analysis took 0.15s
-Prepare screens took 0.22s
->>>>>>> 0bbeb95c2eb27e9ebe05a665e80ad850bf7940a3
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.08s
+Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-<<<<<<< HEAD
-Interface start took 0.03s
-=======
-Interface start took 0.06s
->>>>>>> 0bbeb95c2eb27e9ebe05a665e80ad850bf7940a3
+Interface start took 0.02s
 
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
@@ -295,36 +257,25 @@ Texture testing:
 - 256px textures work.
 - 512px textures work.
 - 1024px textures work.
+8px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
 - 2048px textures work.
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
-<<<<<<< HEAD
-Total time until interface ready: 1.55099987984s
+Total time until interface ready: 1.48200011253s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.017667 seconds.
-- Frame drawn at 0.032667 seconds.
-- Frame drawn at 0.048667 seconds.
-- Frame drawn at 0.066667 seconds.
-- 0.066667 seconds to render 5 frames.
+- Frame drawn at 0.017000 seconds.
+- Frame drawn at 0.036000 seconds.
+- Frame drawn at 0.049000 seconds.
+- Frame drawn at 0.066000 seconds.
+- 0.066000 seconds to render 5 frames.
 Cleaning stores took 0.00s
 Init translation took 0.00s
-Build styles took 0.00s
+Build styles took 0.01s
 Load screen analysis took 0.02s
-=======
-Total time until interface ready: 2.73917198181s
-- Target is 5 frames in 0.333333333333 seconds.
-- Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.006549 seconds.
-- Frame drawn at 0.020798 seconds.
-- Frame drawn at 0.029648 seconds.
-- Frame drawn at 0.039367 seconds.
-- 0.039367 seconds to render 5 frames.
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.02s
-Load screen analysis took 0.06s
->>>>>>> 0bbeb95c2eb27e9ebe05a665e80ad850bf7940a3
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
