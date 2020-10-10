@@ -1,6 +1,6 @@
 define m = Character('Michellambda')
 define g = Character('Gilbert')
-define b1 = Character('Boss1')
+define boss1 = Character('Boss1')
 image destroyed-city = "destroyed-city.jpg"
 image black_screen = "black_screen.jpg"
 image hangar = "hangar.jpg"
@@ -92,7 +92,7 @@ label boss1:
     show mi with Dissolve(0.5)
     z "Notre cible ne devrait pas être très loin. S'il est vraiment blessé, c'est pas étonnant qu'il se planque." with Dissolve(0.5)
     m "Ce couloir devient vraiment sombre... c'est loin d'être le meilleur endroit pour nous battre" with Dissolve(0.5)
-    menu :
+    menu:
         "Non, reste derrière moi":
             m "Je sais me défendre, tu me prends pour qui ?" with Dissolve(0.5)
             z "Ne discute pas, je reste devant."  with Dissolve(0.5)
