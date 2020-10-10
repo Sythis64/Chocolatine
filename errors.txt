@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 34: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        "Alors que la société 
+File "game/scene3.rpy", line 20: expected statement.
+    //s
+       ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat Oct 10 15:21:55 2020
+Sat Oct 10 16:02:56 2020

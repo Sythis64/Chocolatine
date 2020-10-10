@@ -1,9 +1,4 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-image yolo = "yolo.jpg"
+﻿image yolo = "yolo.jpg"
 image yolo2 = "yolo2.jpg!d"
 image yolo3 = "yolo3.jpg"
 image yolo4 = "yolo4.jpg"
@@ -13,12 +8,8 @@ image yolo7 = "yolo7.jpg"
 
 
 define z = Character("ZZ")
-
 define g = Character("Gilbert")
 
-
-
-# The game starts here.
 
 label start:
 
@@ -44,14 +35,5 @@ label start:
     show text "{size=+20}{color=FEDD27}Depuis, le monde est un endroit dificile à vivre.{/color}{/size}" with Pause(4)
 
     scene suite with dissolve
-    show ZZ happy
-
-    # These display lines of dialogue.
-
     
-    "Alors que la société" 
-    # This ends the game.
-
-
-
     return

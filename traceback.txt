@@ -1,13 +1,21 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
+<<<<<<< HEAD
 While processing text tag {size+=10} in u'{size+=10}Notre esp\xe8ce est parti de loin.{/size}'.:
   File "game/script.rpy", line 23, in script
     show text "{size+=10}Notre espèce est parti de loin.{/size}" with Pause(3.5)
 Exception: Unknown text tag u'size+=10'
+=======
+While running game code:
+  File "game/scene3.rpy", line 11, in script
+    ZZ "L'ISIMA est en feu !"
+Exception: Sayer 'ZZ' is not defined.
+>>>>>>> 3531aaa41e07d7ba5fc3a70d91c8fceef60fff73
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
   File "game/script.rpy", line 23, in script
     show text "{size+=10}Notre espèce est parti de loin.{/size}" with Pause(3.5)
   File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/ast.py", line 1389, in execute
@@ -70,8 +78,21 @@ Full traceback:
   File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/text/text.py", line 1179, in segment
     raise Exception("Unknown text tag %r" % text)
 Exception: Unknown text tag u'size+=10'
+=======
+  File "game/scene3.rpy", line 11, in script
+    ZZ "L'ISIMA est en feu !"
+  File "C:\Users\33651\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 678, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\33651\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 576, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'ZZ' is not defined.
+>>>>>>> 3531aaa41e07d7ba5fc3a70d91c8fceef60fff73
 
-Linux-5.4.0-48-generic-x86_64-with-debian-buster-sid
+Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 Chocolatine 1.0
+<<<<<<< HEAD
 Sat Oct 10 16:28:58 2020
+=======
+Sat Oct 10 16:03:11 2020
+>>>>>>> 3531aaa41e07d7ba5fc3a70d91c8fceef60fff73
