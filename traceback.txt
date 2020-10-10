@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'yolo2.jpg'>:
-  File "game/script.rpy", line 26, in script
-    scene yolo2 with dissolve
-IOError: Couldn't find file 'yolo2.jpg'.
+While processing text tag {size+=10} in u'{size+=10}Notre esp\xe8ce est parti de loin.{/size}'.:
+  File "game/script.rpy", line 23, in script
+    show text "{size+=10}Notre espèce est parti de loin.{/size}" with Pause(3.5)
+Exception: Unknown text tag u'size+=10'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 26, in script
-    scene yolo2 with dissolve
+  File "game/script.rpy", line 23, in script
+    show text "{size+=10}Notre espèce est parti de loin.{/size}" with Pause(3.5)
   File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/ast.py", line 1389, in execute
     renpy.exports.with_statement(trans, paired)
   File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/exports.py", line 1601, in with_statement
@@ -32,8 +32,10 @@ Full traceback:
     cpdef render(d, object widtho, object heighto, double st, double at):
   File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen/renpy.display.render.c:3520)
     rv = d.render(widtho, heighto, st, at)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/transition.py", line 361, in render
-    top = render(self.new_widget, width, height, st, at)
+  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/transition.py", line 87, in render
+    return null_render(self, width, height, st, at)
+  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/transition.py", line 61, in null_render
+    st, at)
   File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen/renpy.display.render.c:4075)
     cpdef render(d, object widtho, object heighto, double st, double at):
   File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen/renpy.display.render.c:3520)
@@ -61,17 +63,15 @@ Full traceback:
     cpdef render(d, object widtho, object heighto, double st, double at):
   File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen/renpy.display.render.c:3520)
     rv = d.render(widtho, heighto, st, at)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/im.py", line 583, in render
-    return cache.get(self, render=True)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/im.py", line 266, in get
-    surf = image.load()
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/display/im.py", line 628, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/loader.py", line 576, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'yolo2.jpg'.
+  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/text/text.py", line 1996, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/text/text.py", line 597, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "/home/nicolas/Pixel/renpy-7.3.5-sdk/renpy/text/text.py", line 1179, in segment
+    raise Exception("Unknown text tag %r" % text)
+Exception: Unknown text tag u'size+=10'
 
 Linux-5.4.0-48-generic-x86_64-with-debian-buster-sid
 Ren'Py 7.3.5.606
 Chocolatine 1.0
-Sat Oct 10 15:29:47 2020
+Sat Oct 10 16:28:58 2020
