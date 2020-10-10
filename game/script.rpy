@@ -3,8 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define z = Character("ZZ")
 
+define g = Character("Gilbert")
 
 # The game starts here.
 
@@ -24,13 +25,16 @@ label start:
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    e "Test Nathan "
     
+    z "You've created a new Ren'Py game."
+
+    z "Once you add a story, pictures, and music, you can release it to the world!"
+
+    z "Test Nathan "
+
     # This ends the game.
+
+
 
     return
     e "test 1,2,1,2"
