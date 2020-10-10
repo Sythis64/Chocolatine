@@ -3,3 +3,4 @@ game/cache/*
 game/gui/*
 game/saves/*
 game/tl/*
+game/saves/navigation.json

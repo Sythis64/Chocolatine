@@ -2,7 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/scene1.rpy", line 9: indentation mismatch.
+File "game/scene3.rpy", line 3: end of line expected.
+    scene vueocean.jpg
+                  ^
+
+File "game/scene3.rpy", line 5: end of line expected.
+    show Cyborg.jpg
+               ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat Oct 10 14:47:38 2020
+Sat Oct 10 15:08:36 2020

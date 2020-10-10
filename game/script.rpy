@@ -25,7 +25,7 @@ label start:
 
     # These display lines of dialogue.
 
-    
+
     z "You've created a new Ren'Py game."
 
     z "Once you add a story, pictures, and music, you can release it to the world!"
@@ -34,7 +34,6 @@ label start:
 
     # This ends the game.
 
-
+    jump scene3
 
     return
-    e "test 1,2,1,2"
