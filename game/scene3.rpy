@@ -4,7 +4,7 @@ label scene3:
 
     scene isima
 
-    "A la recherche du dernier boss."
+    "À la recherche du dernier boss."
 
     show z
 
