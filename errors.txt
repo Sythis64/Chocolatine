@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scene3.rpy", line 20: expected statement.
-    //s
-       ^
+File "game/script.rpy", line 72: expected ':' not found.
+    menu "Vous êtes pret d'une falaise, que faire ?" :
+         ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat Oct 10 16:02:56 2020
+Sat Oct 10 20:45:41 2020
