@@ -8,22 +8,31 @@ label scene3:
 
     show z
 
-    z "L'ISIMA est en feu !"
-    z "Ces maudits robots, ils ne reculent devant rien, je vais les massacrer ! "
+    "Voici l'ISIMA, le dernier lieu avec des appareils informatiques dont disposent les humains."
+    "Je vais sans doute pouvoir y trouver les informations dont j'ai besoin."
+
+
+    scene isimafeu
+
+    show z
+
+    z "L'ISIMA est en feu!"
+    z "Ces maudits robots, ils ne reculent devant rien, je vais les massacrer!"
 
     show cyborg
 
-    b3 "Un survivant, attraper le !"
+    b3 "Un survivant, attraper le!"
 
     "ZZ se mit à courir afin d'échapper à l'armée de robot à ses trousses."
+
 
     scene vueocean
 
     show z
 
     z "Je ne peux pas aller plus loin, j'ai atteint la côte."
-    z "J'ai du les semer ..."
-    z "Si seulement j'étais plus fort, je les aurais massacré jusqu'au dernier !"
+    z "J'ai du les semer..."
+    z "Si seulement j'étais plus fort, je les aurais massacré jusqu'au dernier!"
 
     show cyborg
 
@@ -38,7 +47,7 @@ label scene3:
 
     show pucecerveau
 
-    z "Je vais pouvoir m'emparer de sa puce qui une fois connectée à mon cerveau me donnera toutes les connaisances dont ces robots disposent !"
+    z "Je vais pouvoir m'emparer de sa puce qui une fois connectée à mon cerveau me donnera toutes les connaisances dont ces robots disposent!"
 
 
     return

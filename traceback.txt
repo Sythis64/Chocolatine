@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scene3.rpy", line 14, in script
-    boss3 "Un survivant, attraper le !"
-Exception: Sayer 'boss3' is not defined.
+  File "game/scene3.rpy", line 11, in script
+    ZZ "L'ISIMA est en feu !"
+Exception: Sayer 'ZZ' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scene3.rpy", line 14, in script
-    boss3 "Un survivant, attraper le !"
+  File "game/scene3.rpy", line 11, in script
+    ZZ "L'ISIMA est en feu !"
   File "C:\Users\33651\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 678, in execute
     who = eval_who(self.who, self.who_fast)
   File "C:\Users\33651\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 576, in eval_who
     raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'boss3' is not defined.
+Exception: Sayer 'ZZ' is not defined.
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 Chocolatine 1.0
-Sat Oct 10 15:43:16 2020
+Sat Oct 10 16:03:11 2020
