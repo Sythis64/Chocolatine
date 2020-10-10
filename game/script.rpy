@@ -41,34 +41,5 @@ label start:
     scene suite with dissolve
     show ZZ happy
 
-    # These display lines of dialogue.
-
-<<<<<<< HEAD
-
-    z "You've created a new Ren'Py game."
-
-    z "Once you add a story, pictures, and music, you can release it to the world!"
-
-    z "Test Nathan "
-
-
-=======
-    
-    "Alors que la société" 
->>>>>>> 0bbeb95c2eb27e9ebe05a665e80ad850bf7940a3
-    # This ends the game.
-
-
-
-<<<<<<< HEAD
-    z "Test Nathan "
-
-    # This ends the game.
-
-    jump scene2
 
     return
-    z "test 1,2,1,2"
-=======
-    return
->>>>>>> 0bbeb95c2eb27e9ebe05a665e80ad850bf7940a3
