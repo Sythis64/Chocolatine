@@ -9,6 +9,8 @@ image yolo8 = "yolo8.png"
 image yolo9 = "yolo9.png"
 image yolo10 = "yolo10.png"
 image yolo11 = "black_screen.jpg"
+image finnormal = "yolo444.jpeg"
+image finrobot = "yolo44.jpeg"
 
 define z = Character("ZZ")
 
@@ -53,5 +55,40 @@ label start:
     scene yolo11 with dissolve
     show text "{size=+20}{color=FEDD27}L'avenir de l'humanité est entre ses mains. Va-t-il faire les bons choix?{/color}{/size}"with Pause(5)
 
+    jump scene1
 
+    return
+
+label fin:
+
+    scene finnormal
+    show z
+
+    show text "{size=+20}{color=FEDD27}Vous avez réussi a surmonter toutes ces épreuves{/color}{/size}" with Pause(4.5)  
+    show text "{size=+20}{color=FEDD27}Vous ne sentez plus rien, il y a un vide en vous{/color}{/size}" with Pause(4.5)
+    show text "{size=+20}{color=FEDD27}Toutes les modifications que votre corps ont subis commencent a se faire sentir{/color}{/size}" with Pause(5)
+    show text "{size=+20}{color=FEDD27}Vous sentez que vous commencez à perdre votre humanité{/color}{/size}" with Pause(4.5)
+    show text "{size=+20}{color=FEDD27}Vous vous demandez si vous serez capable de résister longtemps{/color}{/size}" with Pause(4.5)
+    show text "{size=+20}{color=FEDD27}Vous êtes pret d'une falaise, que faire ?" with Pause(4.5)
+
+    menu:
+        "Sauter de la falaise":
+            hide z
+            show text "{size=+20}{color=FEDD27}Vous avez fait le sacrifice ultime afin de protéger l'humanité{/color}{/size}" with Pause(4.5)
+            show text "{size=+20}{color=FEDD27}Etait ce nécessaire ?{/color}{/size}" with Pause(4.5)
+            show text "{size=+90}{color=000000}FIN{/color}{/size}" with Pause(4.5)
+            return
+        "Rentrer au camps":
+            jump finrobot
+    
+label finrobot:
+
+    scene finrobot
+
+    show text "{size=+20}{color=FEDD27}Vous avez fini par succomber{/color}{/size}" with Pause(4.5)  
+    show text "{size=+20}{color=FEDD27}Vous ne sentez plus rien, rien du tout{/color}{/size}" with Pause(4.5)
+    show text "{size=+20}{color=FEDD27}Vous doutez de la nécesitté de garder les humains en vie{/color}{/size}" with Pause(5)
+    show text "{size=+20}{color=FEDD27}Vous vous retrouvez a tuer des humains{/color}{/size}" with Pause(4.5)
+    show text "{size=+20}{color=FEDD27}Avec vos capacités l'humanité se fait rapidement détruire{/color}{/size}" with Pause(4.5)
+    show text "{size=+90}{color=000000}FIN{/color}{/size}" with Pause(4.5)
     return
