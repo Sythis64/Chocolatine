@@ -4,3 +4,7 @@ game/gui/*
 game/saves/*
 game/tl/*
 game/saves/navigation.json
+errors.txt
+errors.txt
+game/cache/bytecode.rpyb
+game/cache/screens.rpyb
